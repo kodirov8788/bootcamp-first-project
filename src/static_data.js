@@ -57,12 +57,56 @@ export const nav = [
     {
         id: 3,
         navName: "Fever, better",
-        route: "feverbetter"
+        route: "feverbetter",
+        nav_child: [
+            {
+                id: 1,
+                childName: 'Categories',
+                grandChild: [
+                    {
+                        id: 1,
+                        grandChildName: "Bagpacks",
+                        route: "/bagpacks",
+                        image: "https://i8.amplience.net/t/jpl/jd_product_list?plu=jd_528807_plc&qlt=85&qlt=92&w=320&h=408&v=1&fmt=auto"
+
+                    },
+                    {
+                        id: 2,
+                        grandChildName: "Crossbody Bags",
+                        route: "/crossbodybags",
+                        image: "https://i0.wp.com/www.mrkoachman.com/wp-content/uploads/2016/08/Stylish-Man-and-Bag.jpg?resize=399%2C400&ssl=1"
+
+                    }
+                ]
+            }
+        ]
     },
     {
         id: 4,
         navName: "Gifts",
-        route: "gifts"
+        route: "gifts",
+        nav_child: [
+            {
+                id: 1,
+                childName: 'Categories',
+                grandChild: [
+                    {
+                        id: 1,
+                        grandChildName: "Bagpacks",
+                        route: "/bagpacks",
+                        image: "https://i8.amplience.net/t/jpl/jd_product_list?plu=jd_528807_plc&qlt=85&qlt=92&w=320&h=408&v=1&fmt=auto"
+
+                    },
+                    {
+                        id: 2,
+                        grandChildName: "Crossbody Bags",
+                        route: "/crossbodybags",
+                        image: "https://i0.wp.com/www.mrkoachman.com/wp-content/uploads/2016/08/Stylish-Man-and-Bag.jpg?resize=399%2C400&ssl=1"
+
+                    }
+                ]
+            }
+        ]
     }
 ]
 
