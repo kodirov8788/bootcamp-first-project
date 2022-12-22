@@ -46,64 +46,7 @@
             border: 2px solid black;
             height: 100%;
 
-            .nav_list {
-                position: relative;
-                width: fit-content;
-                border: 2px solid black;
-                height: 100%;
-                padding-left: 20px;
-                padding-right: 20px;
-                display: flex;
-                padding-top: 20px;
 
-                &:last-child {
-                    a {
-                        color: #D9323A;
-
-                        span {
-                            &::before {
-                                background-color: #D9323A;
-                            }
-                        }
-                    }
-
-
-                }
-
-
-
-                a {
-                    text-decoration: none;
-                    color: $text_color;
-                    width: 100%;
-                    height: 100%;
-                    margin-bottom: 3px;
-                    display: block;
-                    font-size: 18px;
-
-                    span {
-                        position: relative;
-
-                        &::before {
-                            position: absolute;
-                            content: "";
-                            left: 0;
-                            width: 0;
-                            height: 1px;
-                            bottom: -3px;
-                            background-color: $text_color;
-                            transition: 0.3s;
-                        }
-
-                        &:hover::before {
-                            width: 100%;
-                        }
-
-                    }
-
-                }
-
-            }
         }
 
         .nav_store {
@@ -158,7 +101,7 @@
             }
 
             .nav_list {
-                position: relative;
+                // position: relative;
                 width: fit-content;
                 border: 2px solid black;
                 height: 100%;

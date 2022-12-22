@@ -4,6 +4,7 @@ import { FiSearch } from "react-icons/fi"
 import { BiShoppingBag } from "react-icons/bi"
 import { nav, nav_store } from "../../static_data"
 import { Link } from 'react-router-dom'
+import NavbarChild from '../NavbarChild/NavbarChild'
 
 function Navbar() {
     const [clickDown, setClickDown] = useState(false)
@@ -24,9 +25,7 @@ function Navbar() {
                 <ul className='nav_collection' onMouseLeave={() => setClickDown(false)} onMouseEnter={() => setClickDown(true)}>
                     {
                         nav.map(nav_item => (
-                            <li key={nav_item.id} className='nav_list'>
-                                <Link to={nav_item.route}><span>{nav_item.navName}</span></Link>
-                            </li>
+                            <NavbarChild nav_item={nav_item} />
                         ))
                     }
                 </ul>

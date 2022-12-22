@@ -12,25 +12,47 @@ export const nav = [
                         id: 1,
                         grandChildName: "Bags",
                         route: "/bags",
-                        image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.officeworks.com.au%2Fshop%2Fofficeworks%2Fp%2Fj-burrows-15-6-recycled-laptop-bag-black-jb15recnbb&psig=AOvVaw1sCsc-eh0MupgPRbuvmRLI&ust=1671640986565000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNi3wovSiPwCFQAAAAAdAAAAABAF"
+                        image: "https://img.mensxp.com/media/content/2019/Jan/types-of-bags-every-man-needs-in-his-wardrobe3-1548397619.jpg"
 
                     },
                     {
                         id: 2,
                         grandChildName: "Clothing",
                         route: "/clothing",
-                        image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.officeworks.com.au%2Fshop%2Fofficeworks%2Fp%2Fj-burrows-15-6-recycled-laptop-bag-black-jb15recnbb&psig=AOvVaw1sCsc-eh0MupgPRbuvmRLI&ust=1671640986565000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNi3wovSiPwCFQAAAAAdAAAAABAF"
+                        image: "https://i.insider.com/561443069dd7cc1a008bfbd4?width=750&format=jpeg&auto=webp"
+
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 2,
+        navName: "Bags",
+        route: "bags",
+        nav_child: [
+            {
+                id: 1,
+                childName: 'Categories',
+                grandChild: [
+                    {
+                        id: 1,
+                        grandChildName: "Bagpacks",
+                        route: "/bagpacks",
+                        image: "https://i8.amplience.net/t/jpl/jd_product_list?plu=jd_528807_plc&qlt=85&qlt=92&w=320&h=408&v=1&fmt=auto"
+
+                    },
+                    {
+                        id: 2,
+                        grandChildName: "Crossbody Bags",
+                        route: "/crossbodybags",
+                        image: "https://i0.wp.com/www.mrkoachman.com/wp-content/uploads/2016/08/Stylish-Man-and-Bag.jpg?resize=399%2C400&ssl=1"
 
                     }
                 ]
             }
         ]
 
-    },
-    {
-        id: 2,
-        navName: "Bags",
-        route: "bags"
     },
     {
         id: 3,
