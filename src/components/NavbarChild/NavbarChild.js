@@ -35,7 +35,7 @@ function NavbarChild({ nav_item }) {
                         </div>
                     ))
                 }
-                <img className='nav_child_img' src="https://images.freeimages.com/images/previews/b76/meeting-table-1236299.jpg" alt="" />
+                <img className='nav_child_img' src={imgLink} alt="" />
             </div>
 
         </li>

@@ -8,6 +8,8 @@
     top: 70px;
     left: 0;
     transition: 0.02s;
+    display: flex;
+    justify-content: space-between;
 
     .nav_child_img {
         width: 300px;
