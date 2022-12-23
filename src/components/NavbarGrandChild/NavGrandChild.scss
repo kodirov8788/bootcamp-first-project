@@ -1,0 +1,21 @@
+.nav_grand_child {
+    height: 50px;
+    border: 2px solid black;
+    width: 200px;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav_grand_child a {
+    display: flex;
+    height: fit-content;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+}
+
+.nav_grand_child:hover a {
+    border-bottom: 1px solid black;
+    width: fit-content;
+}

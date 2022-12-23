@@ -12,14 +12,14 @@ export const nav = [
                         id: 1,
                         grandChildName: "Bags",
                         route: "/bags",
-                        image: "https://img.mensxp.com/media/content/2019/Jan/types-of-bags-every-man-needs-in-his-wardrobe3-1548397619.jpg"
+                        image: "https://images.freeimages.com/images/large-previews/433/shoe-maker-1241052.jpg"
 
                     },
                     {
                         id: 2,
                         grandChildName: "Clothing",
                         route: "/clothing",
-                        image: "https://i.insider.com/561443069dd7cc1a008bfbd4?width=750&format=jpeg&auto=webp"
+                        image: "https://images.freeimages.com/images/previews/b76/meeting-table-1236299.jpg"
 
                     }
                 ]

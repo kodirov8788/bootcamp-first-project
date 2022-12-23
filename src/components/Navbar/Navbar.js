@@ -8,7 +8,7 @@ import NavbarChild from '../NavbarChild/NavbarChild'
 
 function Navbar() {
     const [clickDown, setClickDown] = useState(false)
-    console.log(clickDown)
+    // console.log(clickDown)
     return (
         <div className='nav'>
 
