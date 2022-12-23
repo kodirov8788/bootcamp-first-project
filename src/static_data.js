@@ -3,6 +3,7 @@ export const nav = [
         id: 1,
         navName: "Shop",
         route: "shop",
+        img: "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVuJTIwZmFzaGlvbnxlbnwwfHwwfHw%3D&w=1000&q=80",
         nav_child: [
             {
                 id: 1,
@@ -30,6 +31,7 @@ export const nav = [
         id: 2,
         navName: "Bags",
         route: "bags",
+        img: "https://www.baazarkolkata.com/assets/img/119.webp",
         nav_child: [
             {
                 id: 1,
@@ -58,6 +60,7 @@ export const nav = [
         id: 3,
         navName: "Fever, better",
         route: "feverbetter",
+        img: "https://media.istockphoto.com/id/1425659954/photo/lifestyle-and-luxury-businessman-fashion-model-in-studio-photoshoot-for-wealthy-and-rich.jpg?b=1&s=170667a&w=0&k=20&c=279yVUji5fkmxDm6pACStKqDk0DEn7FZB_iJQqumeIw=",
         nav_child: [
             {
                 id: 1,
@@ -85,6 +88,8 @@ export const nav = [
         id: 4,
         navName: "Gifts",
         route: "gifts",
+        img: "https://clipkulture.com/wp-content/uploads/2022/06/il_794xN.2946998922_ktk3.webp",
+
         nav_child: [
             {
                 id: 1,

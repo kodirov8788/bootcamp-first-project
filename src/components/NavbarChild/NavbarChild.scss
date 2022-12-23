@@ -1,15 +1,27 @@
 @import "../../style/variable";
 
+.nav_child_wrapper {
+    width: 100%;
+    // background-color: blue;
+    position: absolute;
+    height: 500px;
+    top: 70px;
+    left: 0;
+    overflow: hidden;
+    transition-delay: .3s;
+}
+
 .nav_child_down {
     position: absolute;
     width: 100%;
     height: 50%;
     background-color: crimson;
-    top: 70px;
     left: 0;
-    transition: 0.02s;
+    top: 0;
+    transition: 1s;
     display: flex;
     justify-content: space-between;
+    z-index: 1;
 
     .nav_child_img {
         width: 300px;
@@ -26,7 +38,7 @@
 .nav_list {
     // position: relative;
     width: fit-content;
-    border: 2px solid black;
+    // border: 2px solid black;
     height: 100%;
     padding-left: 20px;
     padding-right: 20px;

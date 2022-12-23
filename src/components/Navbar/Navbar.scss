@@ -8,6 +8,8 @@
     align-items: center;
     height: 70px;
     z-index: 1000;
+    position: fixed;
+    top: 0;
 
     .nav_down {
         position: absolute;
@@ -44,8 +46,9 @@
         .nav_collection {
             display: flex;
             align-items: center;
-            border: 2px solid black;
+            // border: 2px solid black;
             height: 100%;
+
 
 
         }

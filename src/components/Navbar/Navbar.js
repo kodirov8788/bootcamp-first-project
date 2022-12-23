@@ -12,15 +12,16 @@ function Navbar() {
     return (
         <div className='nav'>
 
-            <div onMouseLeave={() => setClickDown(false)}
+            {/* <div onMouseLeave={() => setClickDown(false)}
                 onMouseEnter={() => setClickDown(true)}
-                className="nav_down" style={clickDown ? { height: "70vh" } : { height: "0" }}></div>
+                className="nav_down" style={clickDown ? { height: "70vh" } : { height: "0" }}></div> */}
 
             <div className="nav_logo">
                 <Link to="/">
                     <h2>RICHMAN</h2>
                 </Link>
             </div>
+
             <div className="nav_group">
                 <ul className='nav_collection' onMouseLeave={() => setClickDown(false)} onMouseEnter={() => setClickDown(true)}>
                     {
